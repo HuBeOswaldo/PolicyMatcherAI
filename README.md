@@ -128,7 +128,7 @@ policy-matcher-ai/
 ├── README.md
 └── requirements.txt
 ---
-
+```
 ## ✅ Next Steps
 
 - [ ] Collect and label sample matching data  
@@ -137,7 +137,7 @@ policy-matcher-ai/
 - [ ] Train initial supervised model and evaluate  
 - [ ] Create CLI tool to run matching jobs  
 - [ ] Evaluate performance and iterate
-```
+
 ---
 
 ## 👤 Maintainer
