@@ -62,3 +62,53 @@ Develop an AI-driven matching agent capable of:
               ┌───────────────────┐
               │ Match Result      │
               └───────────────────┘
+## 📈 Evaluation Metrics
+
+To evaluate the performance of the matching agent, the following metrics will be used:
+
+- **Accuracy**  
+  The percentage of correctly matched records compared to the total number of evaluated records.
+
+- **Top-K Accuracy**  
+  Measures whether the correct match appears within the top K predictions (e.g., top 3), useful for scenarios with multiple candidate matches.
+
+- **Precision / Recall**  
+  Especially useful for imbalanced datasets.  
+  - **Precision**: True Positives / (True Positives + False Positives)  
+  - **Recall**: True Positives / (True Positives + False Negatives)
+
+- **F1 Score**  
+  Harmonic mean of Precision and Recall.
+
+- **Inference Time**  
+  Time it takes to produce a prediction. Important for future real-time processing.
+
+---
+
+## 🧪 A/B Testing (Future Enhancements)
+
+The following experiments are planned to validate the effectiveness of the AI matching system:
+
+- Compare **heuristic-only matching** vs **ML-based matching** strategies.
+- Run **manual vs automated** reconciliation experiments to measure time savings.
+- Test different **feature sets** and **model architectures** to improve precision.
+- Use **feedback loops** to continuously improve matching logic based on human validation.
+
+---
+
+## 🗺️ Development Roadmap (MVP)
+
+| Week | Task                                                              |
+|------|-------------------------------------------------------------------|
+| 1    | Define input tables and current manual matching logic             |
+| 2    | Data cleaning and feature generation                              |
+| 3    | Implement heuristic-based matching                                |
+| 4-5  | Train baseline supervised model                                   |
+| 6    | Evaluate and compare models                                       |
+| 7    | Build CLI app for desktop use                                     |
+| 8    | Internal testing and refinement                                   |
+
+---
+
+## 📂 Project Structure (Planned)
+
