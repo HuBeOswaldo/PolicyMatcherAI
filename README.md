@@ -143,8 +143,8 @@ policy-matcher-ai/
 
 ## 👤 Maintainer
 
-**Oswaldo Arturo Huerta Berrelleza**  
-AI Engineer | Data Scientist | Python Developer
+**Oswaldo  Huerta **  
+Development Analyst | Python Developer
 
 ---
 
