@@ -127,8 +127,9 @@ policy-matcher-ai/
 ├── tests/                  # Unit tests for pipeline components
 ├── README.md
 └── requirements.txt
----
 ```
+---
+
 ## ✅ Next Steps
 
 - [ ] Collect and label sample matching data  
