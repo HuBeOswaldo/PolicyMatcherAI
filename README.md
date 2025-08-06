@@ -113,3 +113,41 @@ The following experiments are planned to validate the effectiveness of the AI ma
 
 ## 📂 Project Structure (Planned)
 
+```plaintext
+policy-matcher-ai/
+├── data/
+│   ├── raw/                # Raw data files (CSV, Excel)
+│   └── processed/          # Cleaned & feature-engineered datasets
+├── models/                 # Trained model artifacts
+├── src/
+│   ├── matching/           # Matching logic (heuristics + ML)
+│   ├── preprocessing/      # Feature extraction and data cleaning
+│   └── cli/                # Command-line interface for desktop use
+├── notebooks/              # Jupyter notebooks for experiments
+├── tests/                  # Unit tests for pipeline components
+├── README.md
+└── requirements.txt
+---
+
+## ✅ Next Steps
+
+- [ ] Collect and label sample matching data  
+- [ ] Build preprocessing and feature engineering pipeline  
+- [ ] Implement baseline matching logic (rule-based)  
+- [ ] Train initial supervised model and evaluate  
+- [ ] Create CLI tool to run matching jobs  
+- [ ] Evaluate performance and iterate
+```
+---
+
+## 👤 Maintainer
+
+**Oswaldo Arturo Huerta Berrelleza**  
+AI Engineer | Data Scientist | Python Developer
+
+---
+
+## 📝 License
+
+Private / Internal Use – for team development only.  
+(You can change this to MIT or another license if open-sourcing later.)
