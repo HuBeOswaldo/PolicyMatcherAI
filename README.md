@@ -143,7 +143,7 @@ policy-matcher-ai/
 
 ## 👤 Maintainer
 
-**Oswaldo  Huerta **  
+**Oswaldo  Huerta**  
 Development Analyst | Python Developer
 
 ---
