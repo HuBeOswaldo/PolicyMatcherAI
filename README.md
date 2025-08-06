@@ -4,7 +4,7 @@
 
 ## 📌 Project Summary
 
-PolicyMatcher AI is an autonomous agent designed to **match entries across multiple data sources** related to insurance policies. It helps businesses reconcile transactions, assign premium payments, and track policy lifecycle events by identifying the most likely match in a master table.
+PolicyMatcher AI is an autonomous agent designed to **match entries across multiple data sources (AL3 data base vs. ATM data base)** related to insurance policies. It helps businesses reconcile transactions by identifying the most likely match in the Atm Data.
 
 This project aims to reduce manual effort, increase precision in data reconciliation, and lay the foundation for real-time matching capabilities in future versions.
 
@@ -13,7 +13,7 @@ This project aims to reduce manual effort, increase precision in data reconcilia
 ## 🎯 Objective
 
 Develop an AI-driven matching agent capable of:
-- Identifying which policy record (Table A) corresponds to a given transaction or event (Table B)
+- Identifying which policy record (AL3) corresponds to a given transaction (ATM)
 - Improving over time through supervised learning
 - Interacting with internal databases (and future APIs)
 - Operating autonomously in the background with potential for real-time performance
@@ -22,14 +22,20 @@ Develop an AI-driven matching agent capable of:
 
 ## 🧠 Use Cases
 
-1. **Premium Matching**  
-   Link payment transactions to their corresponding policies.
+1. **Intelligent Premium Matching (AL3 ↔ ATM)**  
+   Automatically identify the most probable match between an AL3 policy record and a transaction in the ATM database, even when data fields are not identical.
 
-2. **Lifecycle Event Matching**  
-   Map policy events (activation, cancellation, renewal) to the right policy records.
+   - Match based on:
+     - Policy number
+     - Effective date
+     - Transaction date
+     - Premium amount
+     - Transaction type
+   - Uses a scoring system to weigh similarities across fields and choose the best candidate.
+   - Handles common edge cases, such as swapped dates or partial premium mismatches.
 
-3. **Financial Reconciliation**  
-   Cross-check transactions between internal and external systems.
+3. **[Planned] Financial Reconciliation Module**  
+   Future extension that will apply the same intelligent matching logic to reconcile **payment transactions across Agencytrak vs.Atlas**.  
 
 ---
 
