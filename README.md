@@ -148,12 +148,12 @@ policy-matcher-ai/
 
 ## ✅ Next Steps
 
-- [ ] Collect and label sample matching data  
-- [ ] Build preprocessing and feature engineering pipeline  
-- [ ] Implement baseline matching logic (rule-based)  
-- [ ] Train initial supervised model and evaluate  
-- [ ] Create CLI tool to run matching jobs  
-- [ ] Evaluate performance and iterate
+- [ ] Collect and label representative samples from AL3 and ATM datasets  
+- [ ] Develop preprocessing and feature engineering pipeline to handle data inconsistencies  
+- [ ] Implement baseline rule-based matching logic with scoring system  
+- [ ] Train and evaluate initial supervised machine learning model  
+- [ ] Build CLI tool for desktop to run matching jobs efficiently  
+- [ ] Perform comprehensive performance evaluation and refine approach iteratively  
 
 ---
 
@@ -167,4 +167,3 @@ Development Analyst | Python Developer
 ## 📝 License
 
 Private / Internal Use – for team development only.  
-(You can change this to MIT or another license if open-sourcing later.)
