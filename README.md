@@ -114,15 +114,16 @@ The following experiments are planned to validate the effectiveness of the AI ma
 
 ## 🗺️ Development Roadmap (MVP)
 
-| Week | Task                                                              |
-|------|-------------------------------------------------------------------|
-| 1    | Define input tables and current manual matching logic             |
-| 2    | Data cleaning and feature generation                              |
-| 3    | Implement heuristic-based matching                                |
-| 4-5  | Train baseline supervised model                                   |
-| 6    | Evaluate and compare models                                       |
-| 7    | Build CLI app for desktop use                                     |
-| 8    | Internal testing and refinement                                   |
+| Week  | Task                                                                   |
+|-------|------------------------------------------------------------------------|
+| 1-2   | Define input tables, collect data samples, and analyze inconsistencies |
+| 3-4   | Data cleaning and feature engineering                                  |
+| 5     | Implement heuristic matching                                           |
+| 6-7   | Create labeled samples and train baseline supervised model             |
+| 8     | Evaluate model and compare with heuristics                             |
+| 9     | Develop CLI application                                                |
+| 10-11 | Internal testing, debugging, and refinement                            |
+| 12+   | Buffer for unexpected challenges and final polishing                   |
 
 ---
 
